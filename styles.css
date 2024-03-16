@@ -120,9 +120,15 @@ p {
     justify-content: center;
     align-items: center;
     font-size: 3vw;
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-image: url(https://images.unsplash.com/photo-1538947151057-dfe933d688d1?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     padding: 30px;
     border-radius: 20px;
+    /* backdrop-filter: blur(4px); */
+    /* color: white; */
 }
 .first img{
     width:23vw;
@@ -166,4 +172,10 @@ p {
 
 .typewriter {
     color: #3468C0;
+  }
+
+  @media only screen and (max-width: 767px){
+    .sidebar{
+        display: none;
+    }
   }
